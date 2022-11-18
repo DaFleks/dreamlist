@@ -3,7 +3,7 @@ import { TasksContext } from '../../context/TasksContext';
 import { useContext, useState } from 'react';
 
 const Footer = () => {
-    const tasks = useContext(TasksContext);
+    const { tasks } = useContext(TasksContext);
     const [nTasksCompleted, setNTasksCompleted] = useState(tasks.filter((task) => task.isCompleted === true).length);
 
     return (

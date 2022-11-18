@@ -3,7 +3,7 @@ import { useState, useContext } from 'react';
 import { TasksContext } from '../../context/TasksContext';
 
 const Progress = () => {
-    const tasks = useContext(TasksContext);
+    const { tasks } = useContext(TasksContext);
     const [progress] = useState(0.0);
 
     const getProgress = () => {

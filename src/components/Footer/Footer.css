@@ -20,7 +20,7 @@
 }
 
 .Footer-addBtn {
-    background: #155799;
+    background: #159957;
     margin: 1em 0;
     padding: 0.5em;
     border-radius: 100%;
@@ -29,6 +29,6 @@
     align-items: center;
     color: white;
     font-size: 2rem;
-    box-shadow: 1px 1px 10px rgb(101, 180, 255);
+    box-shadow: 1px 1px 10px #159957;
     ;
 }

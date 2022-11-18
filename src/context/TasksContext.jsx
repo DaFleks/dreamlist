@@ -5,8 +5,18 @@ export const TasksContext = createContext(starterTasks);
 
 const TasksProvider = (props) => {
     const [tasks, setTasks] = useState(starterTasks);
+
+    const addTask = (task) => {
+        console.log(task);
+        setTasks([...tasks, task]);
+    }
+
+    const removeTask = (id) => {
+        setTasks(tasks.filter(task => task.id !== id));
+    }
+
     return (
-        <TasksContext.Provider value={ tasks }>
+        <TasksContext.Provider value={{ tasks, addTask, removeTask }}>
             {props.children}
         </TasksContext.Provider>
     )

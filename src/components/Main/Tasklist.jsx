@@ -4,7 +4,7 @@ import { useContext } from 'react';
 import { TasksContext } from '../../context/TasksContext'
 
 const Tasklist = () => {
-    const tasks = useContext(TasksContext);
+    const { tasks } = useContext(TasksContext);
 
     return (
         <section className="Tasklist">

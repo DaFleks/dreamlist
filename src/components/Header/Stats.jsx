@@ -3,7 +3,7 @@ import { useState, useContext } from 'react';
 import { TasksContext } from '../../context/TasksContext';
 
 const Stats = (props) => {
-    const tasks = useContext(TasksContext);
+    const {tasks} = useContext(TasksContext);
     const [nPersonal] = useState(tasks.filter((task) => task.type === 'Personal').length);
     const [nBusiness] = useState(tasks.filter((task) => task.type === 'Business').length);
     

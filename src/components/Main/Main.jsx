@@ -19,7 +19,11 @@ const Main = () => {
         <main className="Main">
             <div ref={mainRef} className="Main-wrap">
                 <h6>INBOX</h6>
-                {isLoaded && <Tasklist />}
+                {isLoaded ?
+                    <Tasklist /> :
+                    <div className="loader">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/afb8cb36197347.5713616457ee5.gif" alt="Main" />
+                    </div>}
             </div>
             <div className="Main-overlay"></div>
         </main>
