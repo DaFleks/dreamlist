@@ -1,0 +1,29 @@
+.Main {
+    display: flex;
+    flex-direction: column ;
+    flex-grow: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.Main-wrap {
+    background-color: white;
+    flex-grow: 1;
+    padding: 1em;
+    overflow-y: scroll;
+}
+
+.Main-wrap h6 {
+    margin: 0;
+    color:
+        rgb(150, 150, 150);
+}
+
+.Main-overlay {
+    position: absolute;
+    height: 5em;
+    bottom: 0;
+    left: 0%;
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(255,255,255,0) 100%);
+    width: 100%;
+}

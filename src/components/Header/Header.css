@@ -1,0 +1,56 @@
+.Header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+    background-image: url('../../assets/images/backgrounds/sunset.jpg');
+    background-size: cover;
+    background-position: 25% 50%;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    position: relative;
+}
+
+.Header-wrapper {
+    width: 100%;
+    z-index: 1;
+    padding: 1em;
+}
+
+.center-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.bottom-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.bottom-wrapper h5 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.overlay {
+    height: 100%;
+    width: 45%;
+    left: 55%;
+    background-color: black;
+    position: absolute;
+    opacity: 35%;
+}
+
+.bottom-line {
+    background: #159957;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #155799, #159957);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #155799, #159957);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 2.5%;
+    bottom: 0%;
+    width: 55%;
+    position: absolute;
+}

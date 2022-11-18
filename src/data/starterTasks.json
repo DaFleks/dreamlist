@@ -1,0 +1,61 @@
+[{
+        "id": 1001,
+        "task": "Walk the dog",
+        "type": "Personal",
+        "place": "Cedarvale Park",
+        "time": "9:00 PM",
+        "date": "Dec 1, 2022",
+        "isCompleted": true,
+        "icon": "dog"
+    },
+    {
+        "id": 1002,
+        "task": "Work meeting",
+        "type": "Business",
+        "place": "Office",
+        "time": "12:00 PM",
+        "date": "Dec 3, 2022",
+        "isCompleted": true,
+        "icon": "briefcase"
+    },
+    {
+        "id": 1003,
+        "task": "Raptors vs. Heat",
+        "type": "Personal",
+        "place": "Air Canada Center",
+        "time": "7:00 PM",
+        "date": "Nov 15, 2022",
+        "isCompleted": false,
+        "icon": "basketball"
+    },
+    {
+        "id": 1004,
+        "task": "Go to the gym",
+        "type": "Personal",
+        "place": "Fit 4 Less",
+        "time": "8:00 AM",
+        "date": "Nov 30, 2022",
+        "isCompleted": false,
+        "icon": "dumbbell"
+    },
+    {
+        "id": 1005,
+        "task": "Meet with clients",
+        "type": "Business",
+        "place": "Gyubee",
+        "time": "9:30 PM",
+        "date": "Dec 14, 2022",
+        "isCompleted": false,
+        "icon": "handshake"
+    },
+    {
+        "id": 1006,
+        "task": "Go to the dentist",
+        "type": "Personal",
+        "place": "Mr.Burns' Dental Office",
+        "time": "10:30 AM",
+        "date": "Dec 31, 2022",
+        "isCompleted": false,
+        "icon": "tooth"
+    }
+]
