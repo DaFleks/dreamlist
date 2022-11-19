@@ -1,6 +1,6 @@
 import './AddTask.css';
-import AddTaskHeader from './AddTask/Header/AddTaskHeader';
-import AddTaskForm from './AddTask/Form/AddTaskForm';
+import AddTaskHeader from '../components/AddTask/Header/AddTaskHeader';
+import AddTaskForm from '../components/AddTask/Form/AddTaskForm';
 
 const AddTask = () => {
     return (

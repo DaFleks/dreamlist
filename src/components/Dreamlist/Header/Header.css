@@ -1,6 +1,6 @@
 .Header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
-    background-image: url('../../assets/images/backgrounds/sunset.jpg');
+    background-image: url('../../../assets/images/backgrounds/sunset.jpg');
     background-size: cover;
     background-position: 25% 50%;
     background-repeat: no-repeat;

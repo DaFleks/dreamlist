@@ -1,5 +1,5 @@
 import "./Footer.css";
-import { TasksContext } from "../../context/TasksContext";
+import { TasksContext } from "../../../context/TasksContext";
 import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 

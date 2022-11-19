@@ -26,7 +26,14 @@
 
 @media (min-width: 992px) {
   .Dreamlist {
-    width: 25%;
+    width: 50%;
+    height: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Dreamlist {
+    width: 30%;
     height: 80%;
   }
 }

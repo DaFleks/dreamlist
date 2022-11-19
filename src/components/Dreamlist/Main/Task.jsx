@@ -1,15 +1,16 @@
+import { redirect } from "react-router-dom";
 import "./Task.css";
 
 const Task = (props) => {
   const { id, task, type, place, time, date, isCompleted, icon } = props.task;
 
   return (
-    <div className="Task">
+    <div className={`Task ${isCompleted && `Task-completed`}`}>
       <div className="Task-icon">
         <i className={`fa-solid fa-${icon}`}></i>
       </div>
       <div className="Task-text">
-        <h4>{task}</h4>
+        <h4 className={isCompleted && `Task-completed`}>{task}</h4>
         <p>{place}</p>
       </div>
       <div className="Task-time">

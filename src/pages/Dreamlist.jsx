@@ -1,7 +1,7 @@
 import './Dreamlist.css';
-import Header from './Header/Header';
-import Main from './Main/Main';
-import Footer from './Footer/Footer';
+import Header from '../components/Dreamlist/Header/Header';
+import Main from '../components/Dreamlist/Main/Main';
+import Footer from '../components/Dreamlist/Footer/Footer';
 
 const Dreamlist = (props) => {
     return (

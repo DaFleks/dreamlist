@@ -1,6 +1,6 @@
 import './Stats.css';
 import { useState, useContext } from 'react';
-import { TasksContext } from '../../context/TasksContext';
+import { TasksContext } from '../../../context/TasksContext';
 
 const Stats = (props) => {
     const {tasks} = useContext(TasksContext);

@@ -1,6 +1,6 @@
 import './Progress.css';
 import { useState, useContext } from 'react';
-import { TasksContext } from '../../context/TasksContext';
+import { TasksContext } from '../../../context/TasksContext';
 
 const Progress = () => {
     const { tasks } = useContext(TasksContext);

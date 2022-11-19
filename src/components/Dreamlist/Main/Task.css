@@ -1,0 +1,46 @@
+.Task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1em;
+  padding-left: 1em;
+  margin-bottom: 1em;
+}
+
+.Task-icon {
+  background: linear-gradient(to right, #155799, #159957);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem;
+}
+
+.Task p,
+.Task h4 {
+  margin: 0;
+}
+
+.Task p {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: rgb(150, 150, 150);
+}
+
+.Task-icon {
+  width: 10%;
+  text-align: center;
+}
+
+.Task-text {
+  width: 70%;
+  margin-left: 1em;
+}
+
+.Task-time {
+  width: 20%;
+  text-align: center;
+}
+
+.Task-completed {
+    opacity: 50%;
+    text-decoration: line-through;
+}
