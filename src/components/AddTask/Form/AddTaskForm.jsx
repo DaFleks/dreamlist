@@ -16,7 +16,7 @@ const AddTaskForm = () => {
     }
 
     return (
-        <form onSubmit={handleSubmit} className="AddTaskForm" action="">
+        <form onSubmit={handleSubmit} className="AddTaskForm" method="POST">
             <select id="type" name="type" onChange={(evt) => { setType(evt.target.value) }}>
                 <option value="Business">Business</option>
                 <option value="Personal">Personal</option>

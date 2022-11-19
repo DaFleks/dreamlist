@@ -18,7 +18,7 @@ const Main = () => {
     return (
         <main className="Main">
             <div ref={mainRef} className="Main-wrap">
-                <h6>INBOX</h6>
+                <h5>INBOX</h5>
                 {isLoaded ?
                     <Tasklist /> :
                     <div className="loader">
