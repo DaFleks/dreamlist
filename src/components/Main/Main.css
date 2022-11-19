@@ -9,7 +9,6 @@
 .Main-wrap {
     background-color: white;
     flex-grow: 1;
-    padding: 1em;
     overflow-y: auto;
     display: flex;
     flex-direction: column;

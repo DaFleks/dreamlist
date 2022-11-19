@@ -1,21 +1,32 @@
 .Dreamlist {
-    margin: 0 auto;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-family: 'Montserrat', sans-serif;
-    height: 100%;
+  background: white;
+  margin: 0 auto;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+}
+
+.Dreamlist > main,
+.Dreamlist .Header-wrapper,
+.Dreamlist > footer {
+  padding: 1em;
 }
 
 @media (min-width: 768px) {
-    .Dreamlist {
-        width: 66%;
-    }
+  .Dreamlist {
+    width: 80%;
+    height: 90%;
+    box-shadow: 5px 5px 15px black;
+  }
 }
 
 @media (min-width: 992px) {
-    .Dreamlist {
-        width: 33%;
-    }
+  .Dreamlist {
+    width: 25%;
+    height: 80%;
+  }
 }

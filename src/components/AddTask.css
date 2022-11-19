@@ -1,18 +1,24 @@
 .AddTask {
     background: #431599;
-    height: 100%;
     margin: 0 auto;
+    height: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 
 @media (min-width: 768px) {
     .AddTask {
-        width: 66%;
+      width: 80%;
+      height: 90%;
+      box-shadow: 5px 5px 15px black;
     }
-}
-
-@media (min-width: 992px) {
+  }
+  
+  @media (min-width: 992px) {
     .AddTask {
-        width: 33%;
+      width: 25%;
+      height: 80%;
     }
-}
+  }

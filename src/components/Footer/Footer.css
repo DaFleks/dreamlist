@@ -2,8 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1em;
-    background-color: white;
 }
 
 .Footer h5 {
@@ -21,7 +19,6 @@
 
 .Footer-addBtn {
     background: #159957;
-    margin: 1em 0;
     padding: 0.5em;
     border-radius: 100%;
     display: flex;
@@ -30,5 +27,9 @@
     color: white;
     font-size: 2rem;
     box-shadow: 1px 1px 10px #159957;
-    ;
+    transition: background 0.25s ease-in-out;
+}
+
+.Footer-addBtn:hover {
+    background: #23e483;
 }
