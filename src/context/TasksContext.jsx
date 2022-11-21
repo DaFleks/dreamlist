@@ -7,7 +7,6 @@ const TasksProvider = (props) => {
     const [tasks, setTasks] = useState(starterTasks);
 
     const addTask = (task) => {
-        console.log(task);
         setTasks([...tasks, task]);
     }
 

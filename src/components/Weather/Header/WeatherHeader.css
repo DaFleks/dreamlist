@@ -1,0 +1,26 @@
+.WeatherHeader {
+  margin-top: 3em;
+}
+
+.WeatherHeader h1,
+.WeatherHeader h2,
+.WeatherHeader h3,
+.WeatherHeader h5 {
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+
+.WeatherHeader h5 {
+  margin-top: 1em;
+}
+
+.WeatherHeader h1 {
+  font-size: 7rem;
+}
+
+.WeatherHeader div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -7,18 +7,24 @@
     font-family: "Montserrat", sans-serif;
 }
 
-
 @media (min-width: 768px) {
-    .AddTask {
-      width: 80%;
-      height: 90%;
-      box-shadow: 5px 5px 15px black;
-    }
+  .AddTask {
+    width: 80%;
+    height: 90%;
+    box-shadow: 5px 5px 15px black;
   }
-  
-  @media (min-width: 992px) {
-    .AddTask {
-      width: 25%;
-      height: 80%;
-    }
+}
+
+@media (min-width: 992px) {
+  .AddTask {
+    width: 50%;
+    height: 80%;
   }
+}
+
+@media (min-width: 1200px) {
+  .AddTask {
+    width: 30%;
+    height: 80%;
+  }
+}

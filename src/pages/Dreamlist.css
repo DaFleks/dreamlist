@@ -1,13 +1,13 @@
 .Dreamlist {
   background: white;
   margin: 0 auto;
+  width: 100%;
   height: 100%;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   font-family: "Montserrat", sans-serif;
-  width: 100%;
 }
 
 .Dreamlist > main,

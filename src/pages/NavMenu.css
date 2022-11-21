@@ -1,0 +1,70 @@
+.NavMenu {
+  background: #431599;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 1em;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  z-index: 25;
+  transition: opacity 0.25s ease-in-out, visibility 0.5s;
+  display: flex;
+  flex-direction: column;
+}
+
+.NavMenu a {
+  color: white;
+  text-decoration: none;
+}
+
+.NavMenu-list {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.NavMenu ul,
+.NavMenu li {
+  padding: 0;
+}
+
+.NavMenu li {
+  list-style-type: none;
+  margin: 3em 0em;
+}
+
+.hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (min-width: 768px) {
+  .NavMenu {
+    width: 80%;
+    height: 90%;
+    box-shadow: 5px 5px 15px black;
+  }
+}
+
+@media (min-width: 992px) {
+  .NavMenu {
+    width: 50%;
+    height: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .NavMenu {
+    width: 30%;
+    height: 80%;
+  }
+}

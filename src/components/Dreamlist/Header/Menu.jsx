@@ -1,12 +1,13 @@
-import './Menu.css';
+import "./Menu.css";
+import { useNavContext } from "../../../context/NavContext";
 
-const Menu = () => {
-    return (
-        <nav className="Menu">
-            <i className="fa-solid fa-bars fa-2x"></i>
-        </nav>
-    )
-
-}
+const Menu = (props) => {
+  const { navMenu, navMenuToggler } = useNavContext();
+  return (
+    <nav className="Menu">
+      <i onClick={navMenuToggler} className="fa-solid fa-bars fa-2x"></i>
+    </nav>
+  );
+};
 
 export default Menu;

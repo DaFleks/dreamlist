@@ -1,19 +1,23 @@
 import "./App.css";
 import Dreamlist from "./pages/Dreamlist";
 import AddTask from "./pages/AddTask";
+import Weather from "./pages/Weather";
 import TasksProvider from "./context/TasksContext";
-import { Route, Routes, useLocation } from "react-router-dom";
+import NavMenuProvider from "./context/NavContext";
+import { Route, Routes } from "react-router-dom";
 
 const App = () => {
-  const location = useLocation();
   return (
     <TasksProvider>
-      <div className="App">
-        <Routes>
-          <Route path="/" element={<Dreamlist />} />
-          <Route path="/add" element={<AddTask />} />
-        </Routes>
-      </div>
+      <NavMenuProvider>
+        <div className="App">
+          <Routes>
+            <Route path="/" element={<Dreamlist />} />
+            <Route path="/add" element={<AddTask />} />
+            <Route path="/weather" element={<Weather />} />
+          </Routes>
+        </div>
+      </NavMenuProvider>
     </TasksProvider>
   );
 };

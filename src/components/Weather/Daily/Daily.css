@@ -1,0 +1,27 @@
+.Daily {
+  width: 14.29%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em 0em;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.Daily h6 {
+  margin: 0;
+  font-weight: 400;
+}
+
+.Daily img {
+  max-width: 100%;
+}
+
+.Daily span {
+  font-size: 0.7rem;
+}
+
+.Daily:hover {
+  background-color: rgba(205, 75, 0, 0.8);
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
