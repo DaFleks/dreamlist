@@ -1,15 +1,13 @@
 import { useState, useEffect } from "react";
 import weatherData from "../data/weather.json";
 
-const url =
-  "https://api.openweathermap.org/data/3.0/onecall?lat=43.6896191&lon=-79.479188&exclude=minutely,hourly&appid=4baa858a615ca29e0f5cf089cd117683";
-
 const fetchData = () => {
   return new Promise(async (resolve, reject) => {
+    const { REACT_APP_WEATHER_URL, REACT_APP_API_KEY } = process.env;
     try {
-        const response = await fetch(url);
-        const data = await response.json();
-        resolve(data);
+      const response = await fetch(`${REACT_APP_WEATHER_URL}${REACT_APP_API_KEY}`);
+      const data = await response.json();
+      resolve(data);
     } catch (e) {
       console.error(e);
       reject(e);
